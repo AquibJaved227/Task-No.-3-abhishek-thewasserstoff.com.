@@ -1,4 +1,8 @@
-# React + Vite
+# Task-No.-3-abhishek-thewasserstoff.com
+
+This project is a weather forecast dashboard application.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
