@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Forecast({ data, unit }) {
+  // Function to group forecast data by date and calculate average temperature
   const groupByDate = (list) => {
     const groupedData = {};
 
@@ -18,13 +19,15 @@ function Forecast({ data, unit }) {
 
       return {
         date,
-        avgTemp: avgTemp.toFixed(2),
+        avgTemp: avgTemp.toFixed(2),  // Format average temperature
         description: groupedData[date].weather.description,
         icon: groupedData[date].weather.icon,
       };
     });
   };
 
+
+  // Summarize forecast data for the next 5 days
   const summarizedForecast = groupByDate(data.list).slice(0, 5);
 
   return (

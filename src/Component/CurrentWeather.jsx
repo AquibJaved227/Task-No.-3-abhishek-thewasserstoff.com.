@@ -1,6 +1,7 @@
 import React from "react";
 
 function CurrentWeather({ data, unit }) {
+  // Check if the required data is available 
   if (!data || !data.main || !data.weather) {
     return <p>No data available</p>;
   }

@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 
 function SearchComponent({ onSearch }) {
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState('');  // State to store the input city name
 
   const handleSearch = () => {
-    onSearch(city);
+    onSearch(city);  // Trigger the search function passed as a prop
   };
 
   return (
