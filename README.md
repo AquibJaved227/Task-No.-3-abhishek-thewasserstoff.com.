@@ -1,12 +1,38 @@
 # Task-No.-3-abhishek-thewasserstoff.com
 
-This project is a weather forecast dashboard application.
+A weather forecast web application that allows users to search for a city's current weather and view a 5-day forecast. Users can toggle between Celsius and Fahrenheit for temperature units.
 
-## React + Vite
+## Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+These instructions will help you set up and run the project locally on your machine.
 
-Currently, two official plugins are available:
+### Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/Task-No.-3-abhishek-thewasserstoff.com.git
+
+2 - Navigate to the Project Directory
+cd Task-No.-3-abhishek-thewasserstoff.com
+
+3- Install the necessary packages using npm:
+npm install
+
+API Key
+This project uses the OpenWeatherMap API. You need to obtain your own API key and replace the placeholder in the App.jsx file.
+
+Go to OpenWeatherMap and sign up for an API key.
+ Replace fetchWeather function within App.jsx with your actual API key.
+Usage
+Open the application in your web browser.
+Use the search bar to enter the name of a city.
+Click the search button to fetch and display the current weather and 5-day forecast.
+Use the toggle to switch between Celsius and Fahrenheit.
+Contributing
+Feel free to submit issues, fork the repository, and make pull requests. Your contributions are welcome!
