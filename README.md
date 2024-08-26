@@ -36,3 +36,6 @@ Click the search button to fetch and display the current weather and 5-day forec
 Use the toggle to switch between Celsius and Fahrenheit.
 Contributing
 Feel free to submit issues, fork the repository, and make pull requests. Your contributions are welcome!
+
+
+Video Explanation of Problem and Approach - https://www.dropbox.com/scl/fi/xx9vgtwbxfaj34m8d318u/Weather_forecast_VIDEO.mp4?rlkey=bem7lgz3f0mca0fxqtdlrdub8&st=9xz97vac&dl=0
